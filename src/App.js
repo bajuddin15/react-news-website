@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./component/Navbar";
 import "./App.css";
 import News from "./component/News";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 // import LoadingBar from "react-top-loading-bar";
 
 class App extends Component {
